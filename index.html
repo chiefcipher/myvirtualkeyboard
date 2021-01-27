@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='author' content="Samuel Yakubu Ohiani" > 
+    <meta  name='description' content="a virtual keyboard layout website" > 
+
+    <title>keyboard layout</title>
+    <link rel='stylesheet' type='text/css' href='style.css' id='main-stylesheet'/> 
+    <link rel='stylesheet' type='text/css' href='basic-style.css' /> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <div id="keyboard"> 
+    <div id="display">         </div> 
+<!--         <textarea id='display'></textarea>  -->     
+    <div class='row'><!-- 
+        <button class='direct keys'> 1 </button>
+        <button class='direct keys'> 2 </button>
+        <button class='direct keys'> 3 </button>
+        <button class='direct keys'> 4 </button>
+        <button class='direct keys'> 5 </button>
+        <button class='direct keys'> 6 </button>
+        <button class='direct keys'> 7 </button>
+        <button class='direct keys'> 8 </button>
+        <button class='direct keys'> 9 </button>
+        <button class='direct keys'> 0 </button> -->
+
+        <button class='operands keys'> <span class='mainOperands'> 1 </span><span class='subOperands'> ! </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 2 </span><span class='subOperands'> @ </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 3 </span><span class='subOperands'> # </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 4 </span><span class='subOperands'> $ </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 5 </span><span class='subOperands'> % </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 6 </span><span class='subOperands'> ^ </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 7 </span><span class='subOperands'> & </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 8 </span><span class='subOperands'> * </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 9 </span><span class='subOperands'> ( </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> 0 </span><span class='subOperands'> ) </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> - </span><span class='subOperands'> _ </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> + </span><span class='subOperands'> = </span></button>
+        <button class='functions keys biggerKeys'> Backspace </button> <br>
+    </div>
+
+    <div class='row'>
+        <button class='functions keys biggerKeys'> Tab </button>
+        <button class='direct keys'> Q </button>
+        <button class='direct keys'> W </button>
+        <button class='direct keys'> E </button>
+        <button class='direct keys'> R </button>
+        <button class='direct keys'> T </button>
+        <button class='direct keys'> Y </button>
+        <button class='direct keys'> U </button>
+        <button class='direct keys'> I </button>
+        <button class='direct keys'> O </button>
+        <button class='direct keys'> P </button>
+        <button class='operands keys'> <span class='mainOperands'> { </span><span class='subOperands'> [ </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> } </span><span class='subOperands'> ] </span></button>
+        <button class='operands keys'> <span class='mainOperands'> | </span><span class='subOperands'> \</span></button>
+    </div>
+
+    <div class='row'>
+        <button class='functions keys biggerKeys'> Caps Lock </button>
+        <button class='direct keys'> A </button>
+        <button class='direct keys'> S </button>
+        <button class='direct keys'> D </button>
+        <button class='direct keys'> F </button>
+        <button class='direct keys'> G </button>
+        <button class='direct keys'> H </button>
+        <button class='direct keys'> J </button>
+        <button class='direct keys'> K </button>
+        <button class='direct keys'> L </button>
+        <button class='operands keys'> <span class='mainOperands'> : </span><span class='subOperands'> ; </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> " </span><span class='subOperands'> ' </span> </button>
+        <button class='functions keys biggerKeys'> Enter </button>
+    </div>
+
+    <div class='row'>
+        <button class='functions keys biggerKeys'> Shift </button>
+        <button class='direct keys'> Z </button>
+        <button class='direct keys'> X </button>
+        <button class='direct keys'> C </button>
+        <button class='direct keys'> V </button>
+        <button class='direct keys'> B </button>
+        <button class='direct keys'> N </button>
+        <button class='direct keys'> M </button>
+        <button class='operands keys'> <span class='mainOperands'> < </span><span class='subOperands'> , </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> > </span><span class='subOperands'> . </span> </button>
+        <button class='operands keys'> <span class='mainOperands'> ? </span><span class='subOperands'> / </span> </button>
+        <button class='functions keys biggerKeys'> Shift </button>
+    </div>
+
+    
+    <div class='row'>
+        <button class='functions keys '> Ctrl </button>
+        <button class='functions keys'> Fn </button>
+        <button class='functions keys'> WIN </button>
+        <button class='functions keys'> Alt </button>
+        <button class='keys spacebar'> SPACE </button>
+        <button class='functions keys'> Alt </button>
+        <button class='functions keys'> <i class='material-icons menu-icon'>menu</i> </button>
+        <button class='functions keys'> Ctrl </button>
+    </div>
+    <div class='row copy-clear'> 
+        <button class='copy' > Copy </button>
+        <button class='clear' > Clear Content  </button>
+    </div>
+
+
+    </div>
+
+    
+<script src='controller.js' ></script>
+</body>
+</html>
